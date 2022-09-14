@@ -15,7 +15,7 @@ int result = n * i;
 _putchar(',');
 _putchar(' ');
 (result <= 9) ?
-_putchar(' '):
+_putchar(' ') :
 _putchar('0' + (result / 10));
 _putchar('0' + (result % 10));
 }
